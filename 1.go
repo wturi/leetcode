@@ -9,6 +9,7 @@ func main(){
     fmt.Println(newArr)
 }
 
+//两数之和
 func twoSum(nums []int, target int) []int {
 	//获取数组长度
 	ind:=len(nums)
