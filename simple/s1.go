@@ -1,16 +1,7 @@
-package main
-
-import "fmt"
-
-func main(){
-	nums := []int{1, 3, 4, 6, 7, 10}
-	target := 11
-    newArr := twoSum(nums, target)
-    fmt.Println(newArr)
-}
+package simple
 
 //两数之和
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	//获取数组长度
 	ind:=len(nums)
 	//初始化一个长度为2的int数组
