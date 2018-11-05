@@ -14,10 +14,6 @@
 输出: "lovely"
  */
 
- /**
-  * 
-  */
-
   /**
    * 大小写字母之差是32
  * @param {string} str
@@ -37,5 +33,6 @@ let toLowerCase = (str)=> {
     }
     return strs;
 };
+
 
 console.log(toLowerCase('HOoL'))
